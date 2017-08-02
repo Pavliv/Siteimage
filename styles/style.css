@@ -58,6 +58,30 @@ p {
 	margin: 0;
 }
 .main__item {
-	/*display: inline-block;*/
-	/*float: left;*/
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: 20px 0 0 0;
+}
+.main__item_column {
+	position: relative;
+}
+.first-second-item {
+	width: 27%;
+}
+.third-fourth-item {
+	width: 23%;
+}
+.main__item_picture {
+	float: left;
+	margin: 5px;
+}
+.main__item_header {
+	margin: 10px 0 20px 60px;
+	font-style: italic;
+	font-size: 13px;
 }
